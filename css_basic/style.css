@@ -1,7 +1,12 @@
 body{
+  background-color: bisque;
     display: flex;
     flex-direction: column;
   margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: 333;
 }
 
 main{
@@ -19,3 +24,8 @@ main{
         flex: 1;
         overflow-y: auto;
       }
+
+      .logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
